@@ -1,0 +1,17 @@
+7,3,5,8,2,9,4,15,6 dizisini selection sort ile 4 adımı yapalım.
+
+tüm diziyi tarayıp en küçük elemanı belirleyerek gerekirse swap işlemi yapacağız.
+step 1 = (2 en küçük 7 ile değişir)
+
+2,3,5,8,7,9,4,15,6
+
+step 2 =
+
+2,3,5,8,7,9,4,15,6 (3 diğer küçük sayı bu şekilde kaldı.)
+
+step 3 = 
+
+2,3,4,8,7,9,5,15,6
+
+step 4=
+2,3,4,5,7,9,8,15,6
