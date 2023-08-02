@@ -1,0 +1,17 @@
+7,5,1,8,3,6,0,9,4,2 dizisini binary search tree ile oluşturalım.
+
+7 root'tur. 
+
+
+                 7 
+              5     8
+            1  6      9
+          0  3
+            2 4
+
+
+            sırada 5 bulunur ve 5 7 den küçük olduğu için sol çocuğa yerleşir. 1 geldiğinde 7 nin soluna gelmeli ancak o konumda 5 bulunduğu için 5 in de soluna yani küçük çocuğuna 
+            yerleşir. gelelim 8 , 8 , 7 den büyük olduğu için sağ node'a yerleşir. ve 3 sayısına geçeriz. 3 , 7,5 ten büyük ancak 1 den büyüktür o nedenle 1 in sağ düğümüne yerleşir. 6 
+            sayısına geldiğimizde 7 den küçük ancak 5 ten büyüktür ve 5 in sağ çocuğu boş olduğu için 5 in sağına yerleşir. 0 sayısı ise 7 5 ve 1 den küçük olduğu için en alttaki 1 in sol çouvğuna yerleşir
+            9 sayısı 7 den ve 8 den büyük olduğu için 8 in sağ node'una yerleşirken 4 ise 7 5 ten küçük 3 ten büyük olması sebebiyle 3 ün sağ çocuğuna yerleşir.
+            son olarak 2 sayısı 7 5 ten küçük ancak 1 den büyüktür. 1 in sağına yerleşmek ister ancak orda 3 bulunur . 3ten de küçük olması sebebiyle 3ün soluna yerleşir.
